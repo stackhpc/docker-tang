@@ -1,4 +1,4 @@
-FROM rockylinux/rockylinux:8.6.20220707
+FROM quay.io/rockylinux/rockylinux@sha256:d24beedc58f79b9e0e9289fedaa4fcbcbe692b1438883a86f177fd7c51053ca8
 
 ENV SUMMARY="Network Presence Binding Daemon." \
     DESCRIPTION="Tang is a small daemon for binding data to the presence of a third party. This is a containerized Tang server." \
